@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocket Store</title>
+    <link rel="stylesheet" href="./../css/eslito.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div>
+          <img src="./../img/logo.png" alt="Logo da loja" height="120" />
+        </div>
+        <div>
+          <h1 class="titulo-principal">Rocket Store</h1>
+        </div>
+        <div>
+          <form>
+            <fieldset>
+              <legend>ACESSO DO USUÁRIO</legend>
+
+              <label for="n1">Nome:</label>
+              <input type="text" id="n1" /><br />
+
+              <label for="s1">Senha:</label>
+              <input type="password" id="s1" /><br /><br />
+
+              <input type="button" value="Entrar" class="button1" />
+            </fieldset>
+          </form>
+        </div>
+      </header>
+      <nav>
+        <ul class="menu">
+          <li><a href="./inicio.html">Início</a></li>
+          <li><a href="./produtos.html">Produtos</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+          <li><a href="./quem-somos.html">Quem somos</a></li>
+          <li><a href="./informacoes.html">Informações</a></li>
+        </ul>
+      </nav>
+      <main class="contact">
+        <form>
+          <fieldset>
+            <legend>MENSAGEM</legend>
+
+            Nome:<br /><input type="text" name="nome" size="60" /><br />
+            Telefone:<br /><input type="tel" name="telefone" size="60" /><br />
+            E-mail:<br /><input type="email" name="email" size="60" /><br />
+            Mensagem:<br />
+            <textarea name="comentario" cols="60" rows="5">
+Insira a sua mensagem aqui
+              </textarea
+            >
+            <br />
+            <input class="button1" type="submit" name="enviar" value="Enviar" />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>AGENDAMENTOS</legend>
+
+            Data da visita: <input type="date" name="data" /><br />
+            Foguete que queira visitar:<br />
+            <input type="checkbox" name="rocket" value="os" />Ônibus Espacial<br />
+            <input type="checkbox" name="rocket" value="fn" />Falcon 9<br />
+            <input type="checkbox" name="rocket" value="ns" />New Shepard<br />
+            <input type="checkbox" name="rocket" value="sf" />Saturn V<br />
+            <input type="checkbox" name="rocket" value="so" />Soyuz<br />
+            <input type="checkbox" name="rocket" value="sp" />Sputnik<br />
+            <br />
+
+            Gostaria de assistir a um lançamento?<br />
+            <input type="radio" name="opcao" value="sim" />Sim<br />
+            <input type="radio" name="opcao" value="nao" />Não<br />
+            <input type="radio" name="opcao" value="ind" />Indiferente<br />
+            <br />
+
+            Documento com foto:<input type="file" multiple name="arq" /><br />
+            Cor da camiseta (brinde da visita):<input
+              type="color"
+              name="cor"
+            /><br /><br />
+            <input class="button1" type="submit" name="enviar" value="Enviar" />
+          </fieldset>
+        </form>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463225.3084115037!2d-54.32945251464843!3d-32.04067655771743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95119c6b173eeb13%3A0xbaa8517ea9d4b26b!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20do%20Rio%20Grande%20do%20Sul%20-%20Campus%20Rio%20Grande!5e0!3m2!1spt-BR!2sbr!4v1650773434842!5m2!1spt-BR!2sbr"
+            width="580"
+            height="680"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <ul>
+            <li>Telefone: +55 53 99988-7766</li>
+            <li>E-mail: contato@rocketstore.com</li>
+            <li>
+              Endereço: Rua Eng. Alfredo Huck, 475 - Centro, Rio Grande - RS,
+              96201-460
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="./../img/likedin.png" alt="" height="50" />
+          <img src="./../img/instagram.png" alt="" height="50" />
+          <img src="./../img/facebook.png" alt="" height="50" />
+          <img src="./../img/whatsapp.png" alt="" height="50" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

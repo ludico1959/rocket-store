@@ -1,11 +1,228 @@
-* {
-  background-color: antiquewhite;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1150px;
+  padding: 10px;
+  margin-top: 20px;
+  background-image: url("./../img//background-img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 header {
-  background-color: rgb(174, 107, 237);
-  border: 5px solid blueviolet;
+  background-color: palegoldenrod;
+  border-bottom: 5px solid orange;
+  height: 130px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  overflow: hidden;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  color: orange;
+  padding: 0;
+  margin: 0;
+  border-bottom: 5px dashed orange;
+  background-color: palegoldenrod;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: palegoldenrod;
+  border-top: 5px dashed orange;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: orangered;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.page {
+  background-color: antiquewhite;
+  border: 5px solid orange;
+}
+
+.titulo-principal {
+  font-size: 70pt;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: orangered;
+}
+
+.button1 {
+  background-color: orange;
+  width: 100%;
+}
+
+.button1:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: orange;
+}
+
+.menu a:hover {
+  color: royalblue;
+}
+
+.text-presentation {
+  padding: 10px;
+  border: 5px dotted orangered;
+  border-radius: 25px;
+}
+
+.text-presentation:hover {
+  border: 5px solid orangered;
+}
+
+.image-presentation {
+  margin: 10px;
+  border: 5px solid orangered;
+  opacity: 0.6;
+}
+
+.image-presentation img {
+  width: 100%;
+}
+
+.image-presentation:hover {
+  border: 5px solid royalblue;
+  opacity: 1;
+}
+
+.galery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.galery img {
+  height: 300px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.galery figure {
+  border: 5px solid orangered;
+  opacity: 0.7;
+  border-radius: 25px;
+}
+
+.galery figure:hover {
+  border: 5px solid royalblue;
+  opacity: 1;
+}
+
+.galery figcaption {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.map {
+  border: 5px solid orangered;
+  margin-top: 5px;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.videos iframe {
+  border: 5px solid orangered;
+}
+
+main fieldset {
+  border: 5px solid orangered;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main fieldset legend {
+  color: orangered;
+  font-size: large;
+}
+
+table {
+  border-top: 2px solid orangered;
+  border-bottom: 2px solid orangered;
+}
+
+table caption {
+  color: orangered;
+  font-size: xx-large;
+  border-top: 2px solid orangered;
+}
+
+th,
+td {
+  border-bottom: 1px solid orange;
+  text-align: center;
+  font-size: xx-large;
+}
+
+tbody tr:hover {
+  background-color: royalblue;
+}
+
+tfoot,
+thead {
+  background-color: coral;
+}
+
+.informations {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lists {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lists ul {
+  background-color: wheat;
+  border: 5px dotted orangered;
+  content: icon;
+}
+
+.lists ol {
+  list-style-type: hiragana-iroha;
 }

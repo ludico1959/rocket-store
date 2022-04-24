@@ -151,13 +151,12 @@ ul {
 
 .contact {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
 .map {
   border: 5px solid orangered;
-  margin-top: 5px;
+  margin-top: 7px;
 }
 
 .videos {
@@ -221,6 +220,7 @@ thead {
   background-color: wheat;
   border: 5px dotted orangered;
   content: icon;
+  padding: 20px;
 }
 
 .lists ol {
